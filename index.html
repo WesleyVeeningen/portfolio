@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Wesley Veeningen · Data Science & AI</title>
+  <meta name="description" content="Wesley Veeningen, Data Science & AI student at Hogeschool Rotterdam. Projects, experience and contact." />
+  <meta name="author" content="Wesley Veeningen" />
+  <meta name="theme-color" content="#0a0a0a" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Wesley Veeningen · Data Science & AI" />
+  <meta property="og:description" content="Data Science & AI student at Hogeschool Rotterdam. Projects, experience and contact." />
+  <meta name="twitter:card" content="summary" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230a0a0a'/%3E%3Ctext x='16' y='22' font-family='monospace' font-size='16' font-weight='700' fill='%23a78bfa' text-anchor='middle'%3EW%3C/text%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300..700&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="glow" aria-hidden="true"></div>
+  <div class="grid-bg" aria-hidden="true"></div>
+
+  <header class="nav">
+    <div class="nav-inner">
+      <a href="#top" class="logo" aria-label="Back to top">WV<span>.</span></a>
+      <nav aria-label="Sections">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="top" class="hero">
+      <p class="label reveal"><span class="dot"></span><span data-location></span> · open to internships</p>
+      <h1 class="reveal" data-name></h1>
+      <p class="role reveal" data-role></p>
+      <p class="tagline reveal" aria-live="off">
+        <span class="mono">&gt;</span> <span data-tagline></span><span class="caret" aria-hidden="true"></span>
+      </p>
+      <ul class="hero-links reveal" data-hero-links></ul>
+    </section>
+
+    <section id="about" class="section">
+      <h2 class="label reveal">01 · About</h2>
+      <div class="about reveal" data-about></div>
+    </section>
+
+    <section id="projects" class="section">
+      <h2 class="label reveal">02 · Projects</h2>
+      <div class="projects" data-projects></div>
+    </section>
+
+    <section id="experience" class="section">
+      <h2 class="label reveal">03 · Experience & education</h2>
+      <ol class="timeline" data-timeline></ol>
+    </section>
+
+    <section id="skills" class="section">
+      <h2 class="label reveal">04 · Skills</h2>
+      <div class="skills" data-skills></div>
+    </section>
+  </main>
+
+  <footer id="contact" class="section contact">
+    <h2 class="label reveal">05 · Contact</h2>
+    <p class="contact-line reveal">Got an internship, a project or a question?<br /><a data-email-link class="big-link"></a></p>
+    <ul class="hero-links reveal" data-footer-links></ul>
+    <p class="fine"><span data-year></span> · <span data-name></span> · Made in Rotterdam</p>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
