@@ -1,22 +1,30 @@
-# wesleyveeningen portfolio
+# wesleyveeningen.nl
 
-Plain HTML, CSS and JavaScript. No build step.
+My personal portfolio site: who I am, what I'm building and where I've studied and worked.
 
-- `config.js`: all content (bio, projects, timeline, skills, links). Edit this file only.
-- `index.html`: page structure and SEO tags
-- `styles.css`: design; colours are the variables at the top (`--accent` changes the accent)
-- `script.js`: rendering and effects
+**Live:** [wesleyveeningen.nl](https://wesleyveeningen.nl)
 
-Run locally: `python3 -m http.server 4173`, then open http://localhost:4173
+Plain HTML, CSS and JavaScript with no framework and no build step.
 
-## Deploy
+## Editing content
 
-**Vercel**
-1. Push this folder to a new GitHub repo, e.g. `portfolio`.
-2. On vercel.com: Add New → Project → import the repo. Framework preset: "Other". No build command.
-3. Click Deploy. Add your own domain under Settings → Domains if you want.
+All content (bio, projects, timeline, skills and links) lives in `config.js`. Edit that file and reload the page; you don't need to touch the HTML.
 
-**GitHub Pages**
-1. Push this folder to a repo named `WesleyVeeningen.github.io`.
-2. Repo Settings → Pages → Source: "Deploy from a branch", branch `main`, folder `/ (root)`.
-3. Wait a minute, then open https://wesleyveeningen.github.io
+| File | What's in it |
+| --- | --- |
+| `config.js` | All content |
+| `index.html` | Page structure and SEO tags |
+| `styles.css` | Design. Colours are the variables at the top; `--accent` changes the accent colour |
+| `script.js` | Rendering and effects, like the scrambling tagline |
+
+## Running it locally
+
+```bash
+python3 -m http.server 4173
+```
+
+Then open http://localhost:4173.
+
+## Deploying
+
+The site is deployed on Vercel from this repo: every push to `main` goes live. It's a static site, so the Vercel project uses the "Other" framework preset with no build command.
