@@ -38,9 +38,9 @@ window.PORTFOLIO = {
       name: "Commutable",
       description:
         "Find a home that gives you time back. Add the places you travel to every week (work, school, gym, friends), each with a transport mode and trips per week, and Commutable colours the map by total weekly travel time from every spot. Click anywhere to drop a pin and see that spot's weekly total with a per-place breakdown.",
-      tech: ["Python", "Pygame"],
-      repo: "https://github.com/WesleyVeeningen/platform-gimma",
-      year: "2025",
+      tech: ["React", "TypeScript", "MapLibre", "h3-js"],
+      repo: "https://github.com/WesleyVeeningen/Commutable",
+      year: "2026",
     },
     {
       name: "Todo CLI",
